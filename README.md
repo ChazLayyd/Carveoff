@@ -42,8 +42,14 @@ Carveoff was designed to be milled on a hobbyist desktop CNC mill, specifically 
   * 2mm x 8mm endmill
   * 1mm x 3mm endmill
   * 45&deg; chamfer mill
+* All dimensions are nominal.
+  * Adjust for tolerances as needed.
 * CAM is left as an exercise to the reader.
 
 ## License
 
 Carveoff is licensed under the [GNU General Public License v3.0](LICENSE).
+
+## Acknowledgements
+
+* Burgo for the name "Carveoff"
