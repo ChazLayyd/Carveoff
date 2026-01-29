@@ -32,7 +32,8 @@ Carveoff is a toolhead based off of [Takeoff Toolhead](https://github.com/Kizime
 
 Carveoff was designed to be milled on a hobbyist desktop CNC mill, specifically a Carvera. As such:
 
-* The deepest pocket is 12.5mm.
+* The deepest pocket is 10mm.
+  * If boring holes, up to 14mm.
 * There are a number of blind M3 threads, maximum 6mm deep.
   * These can be tapped by hand or with a thread mill.
 * All parts can be made with a traditional 3-axis mill.
