@@ -14,7 +14,7 @@ Belt clips slide on and off without tools, making pretensioning straightforward 
 
 <img src="Images/Belt_Clip_1.jpg" height="280px"> <img src="Images/Belt_Clip_2.jpg" height="280px"> <img src="Images/Belt_Clip_3.jpg" height="280px">
 
-### Tool-Free Attach / Detach
+### Easily detachable toolhead 
 
 The toolhead mounts and unmounts without any disassembly of the carriage or wiring harness.
 
