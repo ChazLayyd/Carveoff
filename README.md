@@ -10,7 +10,7 @@ Carveoff is a toolhead based on [Takeoff Toolhead](https://github.com/Kizime123/
 
 ### Removable Belt Clips
 
-Belt clips slide on and off without tools, making pretensioning straightforward and repeatable.
+Belt clips are easily removable, making servicing much easier.
 
 <img src="Images/Belt_Clip_1.jpg" height="280px"> <img src="Images/Belt_Clip_2.jpg" height="280px"> <img src="Images/Belt_Clip_3.jpg" height="280px">
 
