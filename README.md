@@ -1,56 +1,68 @@
 # Carveoff
 
-Carveoff is a toolhead based off of [Takeoff Toolhead](https://github.com/Kizime123/Takeoff-Toolhead) designed to be milled rather than printed with SLM.
+Carveoff is a toolhead based on [Takeoff Toolhead](https://github.com/Kizime123/Takeoff-Toolhead), designed to be milled rather than printed with SLM.
 
 ![Carveoff](Images/Carveoff.jpg)
 
+---
+
 ## Features
 
-* Removable belt clips that make pretensioning a breeze
+### Removable Belt Clips
 
-  <img src="Images/Belt_Clip_1.jpg" height="300px"><img src="Images/Belt_Clip_2.jpg" height="300px"><img src="Images/Belt_Clip_3.jpg" height="300px">
-* Ability to attach and detach the toolhead without disassembly
-  * Attach
-    
-    <img src="Images/Attach.gif" height="300px">
-  * Detach
-  
-    <img src="Images/Detach.gif" height="300px">
-* Alignment feature that mates with the linear rail carriage to ensure the toolhead is installed straight
+Belt clips slide on and off without tools, making pretensioning straightforward and repeatable.
 
-  <img src="Images/Alignment.jpg" height="300px">
+<img src="Images/Belt_Clip_1.jpg" height="280px"> <img src="Images/Belt_Clip_2.jpg" height="280px"> <img src="Images/Belt_Clip_3.jpg" height="280px">
+
+### Tool-Free Attach / Detach
+
+The toolhead mounts and unmounts without any disassembly of the carriage or wiring harness.
+
+| Attach | Detach |
+|--------|--------|
+| <img src="Images/Attach.gif" height="260px"> | <img src="Images/Detach.gif" height="260px"> |
+
+---
+
+### Rail Alignment
+
+Alignment feature that mates with the linear rail carriage to ensure the toolhead is installed straight.
+
+<img src="Images/Alignment.jpg" height="280px">
+
+---
+
 ## Requirements
 
+- 9 mm inverted belt path, 4 mm spacing — [Monolith Gantry](https://github.com/Monolith3D/Monolith_Gantry)
+- SLM ducts — Takeoff ducts fit, however there are new and improved ducts included in this repo which you should use.
+- [Beacon](https://beacon3d.com/product/beacon-h/)
 
-* 9mm inverted belt path with 4mm spacing ([Monolith](https://github.com/Monolith3D/Monolith_Gantry) belt path)
-* [Tricorn hotend](https://github.com/tricornhotend/tricornhotend.com)
-* [LGX Lite Pro extruder](https://www.bondtech.se/product/lgx-lite-pro-extruder)
-* [Beacon H](https://beacon3d.com/product/beacon-h/)
-* SLM or printed ducts from Takeoff toolhead
+---
 
-## Considerations
+## Compatibility
 
-Carveoff was designed to be milled on a hobbyist desktop CNC mill, specifically a Carvera. As such:
+### Hotends
 
-* The deepest pocket is 10mm.
-  * If boring holes, up to 14mm.
-* There are a number of blind M3 threads, maximum 6mm deep.
-  * These can be tapped by hand or with a thread mill.
-* All parts can be made with a traditional 3-axis mill.
-  * The carriage may be easier to mill with a 4th axis.
-* Recommended tools:
-  * 1/8" or 3mm x 15mm endmill
-  * 2mm x 8mm endmill
-  * 1mm x 3mm endmill
-  * 45&deg; chamfer mill
-* All dimensions are nominal.
-  * Adjust for tolerances as needed.
-* CAM is left as an exercise to the reader.
+- [Tricorn](https://github.com/tricornhotend/tricornhotend.com)
+- [Chube](https://chubehotend.com/)
+- [Goliath](https://github.com/VzBoT3D/Goliath)
+
+### Extruders
+
+- LGX Lite and mechanically similar extruders
+- [Sherpa Mini](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder)
+- [Sherpa Micro](https://github.com/Annex-Engineering/Sherpa_Micro-Extruder)
+- [Orbiter](https://www.orbiterprojects.com/orbiter-v2-5/)
+
+---
 
 ## License
 
-Carveoff is licensed under the [GNU General Public License v3.0](LICENSE).
+Licensed under the [GNU General Public License v3.0](LICENSE).
+
+---
 
 ## Acknowledgements
 
-* Burgo for the name "Carveoff"
+- Burgo for the name "Carveoff"
