@@ -1,6 +1,6 @@
 # Carveoff
 
-Carveoff is a toolhead based on [Takeoff Toolhead](https://github.com/Kizime123/Takeoff-Toolhead), designed to be milled rather than printed with SLM.
+Carveoff is a toolhead based on [Takeoff Toolhead](https://github.com/Kizime123/Takeoff-Toolhead), designed to be milled rather than printed with SLM. It is ideally to be used with the Monolith gantry, but Voron belt path is compatible*.
 
 ![Carveoff](Images/Carveoff.jpg)
 
@@ -35,6 +35,7 @@ Alignment feature that mates with the linear rail carriage to ensure the toolhea
 ## Requirements
 
 - 9 mm inverted belt path, 4 mm spacing — [Monolith Gantry](https://github.com/Monolith3D/Monolith_Gantry)
+- 9mm Voron belt path, 4mm spacing (Not recommended)
 - SLM ducts — Takeoff ducts fit, however there are new and improved ducts included in this repo which you should use.
 - [Beacon](https://beacon3d.com/product/beacon-h/)
 
